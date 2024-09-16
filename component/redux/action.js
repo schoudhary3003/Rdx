@@ -1,7 +1,6 @@
 import { ADD_TO_CART, REMOVE_FROM_CART,USER_LIST } from "./constants"
 
 export function addToCart(item) {
-console.log('bhaisaab=====>',item)
     return {
         type: ADD_TO_CART,
         data: item
